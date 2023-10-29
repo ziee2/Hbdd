@@ -3,23 +3,6 @@
     font-family: 'Poppins',cursive;
 }
 
-@media screen and (max-width: 574px) {
-    .greetings {
-        font-size: 3rem;
-        font-weight: 500;
-        text-align: center;
-    }
-    .description {
-        font-size: 1rem;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    .button a {
-        font-size: .75rem;
-    }
-}
-
 body{
     color: azure;
     width: 100%;
@@ -79,18 +62,19 @@ body{
     color: #111;
 }
 
-@media screen and (max-width:574px){
-    .greetings{
-        display: block;
+@media screen and (max-width: 574px) {
+    .greetings {
         font-size: 3rem;
         font-weight: 500;
         text-align: center;
     }
-    .description{
+    .description {
         font-size: 1rem;
+        text-align: center;
+        margin-bottom: 20px;
     }
-    
-    .button a{
-        font-size: .5rem;
+
+    .button a {
+        font-size: .75rem;
     }
 }
