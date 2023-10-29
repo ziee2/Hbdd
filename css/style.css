@@ -2,6 +2,24 @@
 *{
     font-family: 'Poppins',cursive;
 }
+
+@media screen and (max-width: 574px) {
+    .greetings {
+        font-size: 3rem;
+        font-weight: 500;
+        text-align: center;
+    }
+    .description {
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .button a {
+        font-size: .75rem;
+    }
+}
+
 body{
     color: azure;
     width: 100%;
@@ -15,6 +33,8 @@ body{
 .greetings{
     font-size: 6rem;
     font-weight: 900;
+    text-align: center;
+    line-height: 1.2;
 }
 .greetings > span{
     animation: glow 2.5s ease-in-out infinite;
@@ -29,38 +49,23 @@ body{
         text-shadow: none;
     }
 }
-.greetings > span:nth-child(2){
+.greetings > span:nth-child(1){
     animation-delay: .2s ;
 }
-.greetings > span:nth-child(3){
+.greetings > span:nth-child(2){
     animation-delay: .4s ;
 }
-.greetings > span:nth-child(4){
+.greetings > span:nth-child(3){
     animation-delay: .6s ;
 }
-.greetings > span:nth-child(5){
+.greetings > span:nth-child(4){
     animation-delay: .8s ;
 }
-.greetings > span:nth-child(6){
+.greetings > span:nth-child(5){ 
     animation-delay: 1s ;
 }
-.greetings > span:nth-child(7){
+.greetings > span:nth-child(6){
     animation-delay: 1.2s ;
-}
-.greetings > span:nth-child(8){
-    animation-delay: 1.4s ;
-}
-.greetings > span:nth-child(9){
-    animation-delay: 1.6s ;
-}
-.greetings > span:nth-child(10){
-    animation-delay: 1.8s ;
-}
-.greetings > span:nth-child(11){
-    animation-delay: 2s ;
-}
-.greetings > span:nth-child(12){
-    animation-delay: 2.2s ;
 }
 
 .description{
